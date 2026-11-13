@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fitness Programs | FITNESS & SPORTS</title>
+  <meta name="description" content="Explore our complete fitness program catalogue including Gym & Strength Training, Cardio, Personal Training, Group Fitness, and Flexibility & Mobility.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ================= HEADER & NAVIGATION ================= -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="index.html" class="logo" aria-label="FITNESS & SPORTS Home">
+        FITNESS <span class="logo-accent">&amp; SPORTS</span>
+      </a>
+
+      <button class="hamburger-btn" aria-label="Toggle navigation menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="nav-menu">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <div class="nav-dropdown">
+          <button class="dropdown-trigger active" aria-haspopup="true" aria-expanded="false">
+            Programs <span class="dropdown-arrow">&#9660;</span>
+          </button>
+          <div class="dropdown-menu">
+            <a href="fitness-programs.html" class="dropdown-link active">
+              <strong>All Fitness Programs</strong>
+              <span class="desc">Browse 23 signature training modules</span>
+            </a>
+            <div class="dropdown-divider"></div>
+            <a href="gym-training.html" class="dropdown-link">
+              <strong>Gym &amp; Personal Training</strong>
+              <span class="desc">Strength, free weights &amp; 1-on-1 coaching</span>
+            </a>
+            <a href="cardio-group-fitness.html" class="dropdown-link">
+              <strong>Cardio &amp; Group Fitness</strong>
+              <span class="desc">Aerobics, Zumba, HIIT &amp; spin circuits</span>
+            </a>
+            <a href="sports-yoga.html" class="dropdown-link">
+              <strong>Sports Training &amp; Yoga</strong>
+              <span class="desc">Athletic turf agility &amp; mindful mobility</span>
+            </a>
+          </div>
+        </div>
+        <a href="memberships-gallery.html" class="nav-link">Memberships</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+        <a href="contact.html" class="btn btn-primary btn-sm nav-cta">Join Now</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ================= PAGE HERO BANNER ================= -->
+  <section class="page-hero">
+    <div class="container">
+      <span class="section-label">Tailored Workout Pathways</span>
+      <h1 class="page-hero-title">Comprehensive Program Catalogue</h1>
+      <p class="page-hero-subtitle">
+        Structured exercise programs for all fitness levels. Learn proper movement mechanics, build stamina, improve strength, and embrace healthy living.
+      </p>
+      <div style="margin-top: 15px;">
+        <span class="pill pill-demo">Note: All rates are illustrative demo prices. No guaranteed bodily outcomes promised.</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= PROGRAM CATALOGUE WITH FILTERS ================= -->
+  <section class="section-py bg-dark">
+    <div class="container">
+
+      <!-- Interactive Filter Bar -->
+      <div class="filter-bar">
+        <button class="filter-btn active" data-filter="all">All Programs</button>
+        <button class="filter-btn" data-filter="strength">Gym &amp; Strength</button>
+        <button class="filter-btn" data-filter="cardio">Cardio Training</button>
+        <button class="filter-btn" data-filter="personal">Personal Coaching</button>
+        <button class="filter-btn" data-filter="group">Group Fitness</button>
+        <button class="filter-btn" data-filter="mobility">Flexibility &amp; Mobility</button>
+      </div>
+
+      <div class="card-grid-3" id="programGrid">
+
+        <!-- ================= CATEGORY 1: GYM & STRENGTH ================= -->
+        <!-- 1. Beginner Gym Training -->
+        <div class="program-card program-card-item" data-category="strength">
+          <div class="program-card-body">
+            <div class="program-meta">
+              <span class="pill pill-accent">Beginner Friendly</span>
+              <div class="program-price">₹1,499<span class="program-price-sub">/mo</span></div>
+            </div>
+            <h3>Beginner Gym Training</h3>
+            <p>Fundamental orientation on weight room etiquette, selectorized machine setup, posture awareness, and baseline compound exercises.</p>
+            <div style="font-size: 0.8rem; color: var(--color-text-muted); margin-bottom: 16px;">
+              <strong>Fitness Level:</strong> Absolute Beginner
+            </div>
+            <a href="contact.html?program=Beginner-Gym-Training" class="btn btn-outline-accent btn-sm btn-block">Enquire Program</a>
+          </div>
+        </div>
+
+        <!-- 2. Strength Training -->
+        <div class="program-card program-card-item" data-category="strength">
+          <div class="program-card-body">
+            <div class="program-meta">
+              <span class="pill pill-accent">Intermediate</span>
+              <div class="program-price">₹1,499<span class="program-price-sub">/mo</span></div>
+            </div>
+            <h3>Strength Training</h3>
+            <p>Systematic barbell progression focusing on squats, deadlifts, presses, and pull-ups to enhance overall power and bone density.</p>
+            <div style="font-size: 0.8rem; color: var(--color-text-muted); margin-bottom: 16px;">
+              <strong>Fitness Level:</strong> Intermediate
+            </div>
+            <a href="contact.html?program=Strength-Training" class="btn btn-outline-accent btn-sm btn-block">Enquire Program</a>
+          </div>
+        </div>
+
+        <!-- 3. Weight Training -->
+        <div class="program-card program-card-item" data-category="strength">
+          <div class="program-card-body">
+            <div class="program-meta">
+              <span class="pill pill-accent">All Levels</span>
+              <div class="program-price">₹1,499<span class="program-price-sub">/mo</span></div>
+            </div>
+            <h3>Weight Training</h3>
+            <p>Targeted dumbbell, kettlebell, and cable pulley workouts designed for balanced upper and lower body resistance training.</p>
+            <div style="font-size: 0.8rem; color: var(--color-text-muted); margin-bottom: 16px;">
+              <strong>Fitness Level:</strong> Beginner to Advanced
+            </div>
+            <a href="contact.html?program=Weight-Training" class="btn btn-outline-accent btn-sm btn-block">Enquire Program</a>
+          </div>
+        </div>
+
+        <!-- 4. Muscle Conditioning -->
+        <div class="program-card program-card-item" data-category="strength">
+          <div class="program-card-body">
+            <div class="program-meta">
+              <span class="pill pill-accent">Intermediate</span>
+              <div class="program-price">₹1,499<span class="program-price-sub">/mo</span></div>
+            </div>
+            <h3>Muscle Conditioning</h3>
+            <p>Moderate rep ranges and controlled tempo training focusing on muscular stamina, tone, and joint support.</p>
+            <div style="font-size: 0.8rem; color: var(--color-text-muted); margin-bottom: 16px;">
+              <strong>Fitness Level:</strong> Intermediate
+            </div>
+            <a href="contact.html?program=Muscle-Conditioning" class="btn btn-outline-accent btn-sm btn-block">Enquire Program</a>
+          </div>
+        </div>
+
+        <!-- 5. Functional Training -->
+        <div class="program-card program-card-item" data-category="strength">
+          <div class="program-card-body">
+            <div class="program-meta">
+              <span class="pill pill-accent">Dynamic</span>
+              <div class="program-price">₹1,499<span class="program-price-sub">/mo</span></div>
+            </div>
+            <h3>Functional Training</h3>
+            <p>Multi-planar movements using battle ropes, plyometric boxes, medicine balls, and sled pulls to mirror natural human motions.</p>
+            <div style="font-size: 0.8rem; color: var(--color-text-muted); margin-bottom: 16px;">
+              <strong>Fitness Level:</strong> All Levels
+            </div>
+            <a href="contact.html?program=Functional-Training" class="btn btn-outline-accent btn-sm btn-block">Enquire Program</a>
+          </div>
+        </div>
+
+        <!-- 6. Core Training -->
+        <div class="program-card program-card-item" data-category="strength">
+          <div class="program-card-body">
+            <div class="program-meta">
+              <span class="pill pill-accent">Foundational</span>
+              <div class="program-price">₹1,499<span class="program-price-sub">/mo</span></div>
+            </div>
+            <h3>Core Training</h3>
+            <p>Targeted abdominal, lower back, oblique, and pelvic stability routines that reinforce lumbar spine safety and posture.</p>
+            <div style="font-size: 0.8rem; color: var(--color-text-muted); margin-bottom: 16px;">
+              <strong>Fitness Level:</strong> All Levels
+            </div>
+            <a href="contact.html?program=Core-Training" class="btn btn-outline-accent btn-sm btn-block">Enquire Program</a>
+          </div>
+        </div>
+
+        <!-- ================= CATEGORY 2: CARDIO TRAINING ================= -->
+        <!-- 7. Treadmill Workouts -->
+        <div class="program-card program-card-item" data-category="cardio">
+          <div class="program-card-body">
+            <div class="program-meta">
+              <span class="pill pill-accent">Endurance</span>
+              <div class="program-price">₹1,499<span class="program-price-sub">/mo</span></div>
+            </div>
+            <h3>Treadmill Workouts</h3>
+            <p>Incline hill walking, steady-state jog routines, and interval sprint training programmed on shock-absorbing commercial decks.</p>
+            <div style="font-size: 0.8rem; color: var(--color-text-muted); margin-bottom: 16px;">
+              <strong>Fitness Level:</strong> Beginner to Advanced
+            </div>
+            <a href="contact.html?program=Treadmill-Workouts" class="btn btn-outline-accent btn-sm btn-block">Enquire Program</a>
+          </div>
+        </div>
+
+        <!-- 8. Cycling Workouts -->
+        <div class="program-card program-card-item" data-category="cardio">
+          <div class="program-card-body">
+            <div class="program-meta">
+              <span class="pill pill-accent">Low Impact</span>
+              <div class="program-price">₹1,499<span class="program-price-sub">/mo</span></div>
+            </div>
+            <h3>Cycling Workouts</h3>
+            <p>Low-impact stationary spinning drills, sprint surges, and hill climbs that safeguard knee joints while building cardiovascular endurance.</p>
+            <div style="font-size: 0.8rem; color: var(--color-text-muted); margin-bottom: 16px;">
+              <strong>Fitness Level:</strong> All Levels
+            </div>
+            <a href="contact.html?program=Cycling-Workouts" class="btn btn-outline-accent btn-sm btn-block">Enquire Program</a>
+          </div>
+        </div>
+
+        <!-- 9. Endurance Training -->
+        <div class="program-card program-card-item" data-category="cardio">
+          <div class="program-card-body">
+            <div class="program-meta">
+              <span class="pill pill-accent">Stamina</span>
+              <div class="program-price">₹1,499<span class="program-price-sub">/mo</span></div>
+            </div>
+            <h3>Endurance Training</h3>
+            <p>Longer-duration aerobic pacing integrating rowing machines, elliptical trainers, and light calisthenics.</p>
+            <div style="font-size: 0.8rem; color: var(--color-text-muted); margin-bottom: 16px;">
+              <strong>Fitness Level:</strong> Intermediate
+            </div>
+            <a href="contact.html?program=Endurance-Training" class="btn btn-outline-accent btn-sm btn-block">Enquire Program</a>
+          </div>
+        </div>
+
+        <!-- 10. Circuit Training -->
+        <div class="program-card program-card-item" data-category="cardio">
+          <div class="program-card-body">
+            <div class="program-meta">
+              <span class="pill pill-accent">Fast Paced</span>
+              <div class="program-price">₹1,499<span class="program-price-sub">/mo</span></div>
+            </div>
+            <h3>Circuit Training</h3>
+            <p>Rapid station-to-station drills that alternate between bodyweight exercises and quick cardio intervals with minimal rest periods.</p>
+            <div style="font-size: 0.8rem; color: var(--color-text-muted); margin-bottom: 16px;">
+              <strong>Fitness Level:</strong> Intermediate
+            </div>
+            <a href="contact.html?program=Circuit-Training" class="btn btn-outline-accent btn-sm btn-block">Enquire Program</a>
+          </div>
+        </div>
+
+        <!-- 11. HIIT Sessions -->
+        <div class="program-card program-card-item" data-category="cardio">
+          <div class="program-card-body">
+            <div class="program-meta">
+              <span class="pill pill-accent">High Intensity</span>
+              <div class="program-price">₹1,499<span class="program-price-sub">/mo</span></div>
+            </div>
+            <h3>HIIT Sessions</h3>
+            <p>High-Intensity Interval Training alternating intense bursts of maximum aerobic effort with brief recovery periods.</p>
+            <div style="font-size: 0.8rem; color: var(--color-text-muted); margin-bottom: 16px;">
+              <strong>Fitness Level:</strong> Advanced
+            </div>
+            <a href="contact.html?program=HIIT-Sessions" class="btn btn-outline-accent btn-sm btn-block">Enquire Program</a>
+          </div>
+        </div>
+
+        <!-- ================= CATEGORY 3: PERSONAL TRAINING ================= -->
+        <!-- 12. One-to-One Personal Training -->
+        <div class="program-card program-card-item" data-category="personal">
+          <div class="program-card-body">
+            <div class="program-meta">
+              <span class="pill pill-accent">Dedicated</span>
+              <div class="program-price">₹5,999<span class="program-price-sub">/mo</span></div>
+            </div>
+            <h3>One-to-One Personal Training</h3>
+            <p>Direct 1-on-1 coach supervision for each session, guaranteeing custom progressive programming and meticulous form correction.</p>
+            <div style="font-size: 0.8rem; color: var(--color-text-muted); margin-bottom: 16px;">
+              <strong>Fitness Level:</strong> Customized for You
+            </div>
+            <a href="contact.html?program=One-to-One-Personal-Training" class="btn btn-outline-accent btn-sm btn-block">Enquire Coaching</a>
+          </div>
+        </div>
+
+        <!-- 13. Beginner Fitness Coaching -->
+        <div class="program-card program-card-item" data-category="personal">
+          <div class="program-card-body">
+            <div class="program-meta">
+              <span class="pill pill-accent">Guided Entry</span>
+              <div class="program-price">₹5,999<span class="program-price-sub">/mo</span></div>
+            </div>
+            <h3>Beginner Fitness Coaching</h3>
+            <p>Patient, step-by-step introduction designed to eliminate gym anxiety, build movement confidence, and form sustainable workout habits.</p>
+            <div style="font-size: 0.8rem; color: var(--color-text-muted); margin-bottom: 16px;">
+              <strong>Fitness Level:</strong> Beginner
+            </div>
+            <a href="contact.html?program=Beginner-Fitness-Coaching" class="btn btn-outline-accent btn-sm btn-block">Enquire Coaching</a>
+          </div>
+        </div>
+
+        <!-- 14. Strength Coaching -->
+        <div class="program-card program-card-item" data-category="personal">
+          <div class="program-card-body">
+            <div class="program-meta">
+              <span class="pill pill-accent">Performance</span>
+              <div class="program-price">₹5,999<span class="program-price-sub">/mo</span></div>
+            </div>
+            <h3>Strength Coaching</h3>
+            <p>Specialized coaching for compound lifts, bar speed, breath bracing techniques, and progressive cycle management.</p>
+            <div style="font-size: 0.8rem; color: var(--color-text-muted); margin-bottom: 16px;">
+              <strong>Fitness Level:</strong> Intermediate to Advanced
+            </div>
+            <a href="contact.html?program=Strength-Coaching" class="btn btn-outline-accent btn-sm btn-block">Enquire Coaching</a>
+          </div>
+        </div>
+
+        <!-- 15. Fitness Goal Planning -->
+        <div class="program-card program-card-item" data-category="personal">
+          <div class="program-card-body">
+            <div class="program-meta">
+              <span class="pill pill-accent">Consultation</span>
+              <div class="program-price">₹799<span class="program-price-sub">/session</span></div>
+            </div>
+            <h3>Fitness Goal Planning</h3>
+            <p>In-depth fitness assessment, movement mobility screen, and realistic milestone setting tailored to your daily lifestyle constraints.</p>
+            <div style="font-size: 0.8rem; color: var(--color-text-muted); margin-bottom: 16px;">
+              <strong>Fitness Level:</strong> All Levels
+            </div>
+            <a href="contact.html?program=Fitness-Goal-Planning" class="btn btn-outline-accent btn-sm btn-block">Book Session</a>
+          </div>
+        </div>
+
+        <!-- ================= CATEGORY 4: GROUP FITNESS ================= -->
+        <!-- 16. Aerobics -->
+        <div class="program-card program-card-item" data-category="group">
+          <div class="program-card-body">
+            <div class="program-meta">
+              <span class="pill pill-accent">Rhythmic</span>
+              <div class="program-price">₹1,199<span class="program-price-sub">/mo</span></div>
+            </div>
+            <h3>Aerobics</h3>
+            <p>Upbeat, music-driven group aerobic choreography that keeps your heart pumping, burns energy, and enhances coordination.</p>
+            <div style="font-size: 0.8rem; color: var(--color-text-muted); margin-bottom: 16px;">
+              <strong>Fitness Level:</strong> All Levels
+            </div>
+            <a href="contact.html?program=Aerobics" class="btn btn-outline-accent btn-sm btn-block">Enquire Class</a>
+          </div>
+        </div>
+
+        <!-- 17. Zumba -->
+        <div class="program-card program-card-item" data-category="group">
+          <div class="program-card-body">
+            <div class="program-meta">
+              <span class="pill pill-accent">High Energy</span>
+              <div class="program-price">₹999<span class="program-price-sub">/mo</span></div>
+            </div>
+            <h3>Zumba</h3>
+            <p>Latin-inspired dance workout routines combining lively music, easy-to-follow steps, and infectious party-style fitness fun.</p>
+            <div style="font-size: 0.8rem; color: var(--color-text-muted); margin-bottom: 16px;">
+              <strong>Fitness Level:</strong> All Levels
+            </div>
+            <a href="contact.html?program=Zumba" class="btn btn-outline-accent btn-sm btn-block">Enquire Class</a>
+          </div>
+        </div>
+
+        <!-- 18. Group Workout Sessions -->
+        <div class="program-card program-card-item" data-category="group">
+          <div class="program-card-body">
+            <div class="program-meta">
+              <span class="pill pill-accent">Team Spirit</span>
+              <div class="program-price">₹1,199<span class="program-price-sub">/mo</span></div>
+            </div>
+            <h3>Group Workout Sessions</h3>
+            <p>Full-body metabolic group conditioning sessions that challenge strength and cardio together under passionate trainer guidance.</p>
+            <div style="font-size: 0.8rem; color: var(--color-text-muted); margin-bottom: 16px;">
+              <strong>Fitness Level:</strong> All Levels
+            </div>
+            <a href="contact.html?program=Group-Workout-Sessions" class="btn btn-outline-accent btn-sm btn-block">Enquire Class</a>
+          </div>
+        </div>
+
+        <!-- 19. Functional Fitness Classes -->
+        <div class="program-card program-card-item" data-category="group">
+          <div class="program-card-body">
+            <div class="program-meta">
+              <span class="pill pill-accent">Community</span>
+              <div class="program-price">₹1,199<span class="program-price-sub">/mo</span></div>
+            </div>
+            <h3>Functional Fitness Classes</h3>
+            <p>Team turf workouts using kettlebells, sandbags, slam balls, and agility ladders for athletic everyday readiness.</p>
+            <div style="font-size: 0.8rem; color: var(--color-text-muted); margin-bottom: 16px;">
+              <strong>Fitness Level:</strong> All Levels
+            </div>
+            <a href="contact.html?program=Functional-Fitness-Classes" class="btn btn-outline-accent btn-sm btn-block">Enquire Class</a>
+          </div>
+        </div>
+
+        <!-- ================= CATEGORY 5: FLEXIBILITY & MOBILITY ================= -->
+        <!-- 20. Yoga -->
+        <div class="program-card program-card-item" data-category="mobility">
+          <div class="program-card-body">
+            <div class="program-meta">
+              <span class="pill pill-accent">Mindful</span>
+              <div class="program-price">₹1,299<span class="program-price-sub">/mo</span></div>
+            </div>
+            <h3>Yoga</h3>
+            <p>Classical Hatha and Vinyasa asana flows focusing on postural alignment, conscious breathing, and deep mental centering.</p>
+            <div style="font-size: 0.8rem; color: var(--color-text-muted); margin-bottom: 16px;">
+              <strong>Fitness Level:</strong> All Levels
+            </div>
+            <a href="contact.html?program=Yoga" class="btn btn-outline-accent btn-sm btn-block">Enquire Session</a>
+          </div>
+        </div>
+
+        <!-- 21. Stretching -->
+        <div class="program-card program-card-item" data-category="mobility">
+          <div class="program-card-body">
+            <div class="program-meta">
+              <span class="pill pill-accent">Restorative</span>
+              <div class="program-price">₹1,299<span class="program-price-sub">/mo</span></div>
+            </div>
+            <h3>Stretching</h3>
+            <p>Targeted static and PNF stretching classes that alleviate post-workout tightness, decompress the spine, and lengthen muscles.</p>
+            <div style="font-size: 0.8rem; color: var(--color-text-muted); margin-bottom: 16px;">
+              <strong>Fitness Level:</strong> All Levels
+            </div>
+            <a href="contact.html?program=Stretching" class="btn btn-outline-accent btn-sm btn-block">Enquire Session</a>
+          </div>
+        </div>
+
+        <!-- 22. Mobility Training -->
+        <div class="program-card program-card-item" data-category="mobility">
+          <div class="program-card-body">
+            <div class="program-meta">
+              <span class="pill pill-accent">Joint Health</span>
+              <div class="program-price">₹1,299<span class="program-price-sub">/mo</span></div>
+            </div>
+            <h3>Mobility Training</h3>
+            <p>Active end-range joint control exercises designed to improve range of motion across hips, thoracic spine, ankles, and shoulders.</p>
+            <div style="font-size: 0.8rem; color: var(--color-text-muted); margin-bottom: 16px;">
+              <strong>Fitness Level:</strong> All Levels
+            </div>
+            <a href="contact.html?program=Mobility-Training" class="btn btn-outline-accent btn-sm btn-block">Enquire Session</a>
+          </div>
+        </div>
+
+        <!-- 23. Recovery Sessions -->
+        <div class="program-card program-card-item" data-category="mobility">
+          <div class="program-card-body">
+            <div class="program-meta">
+              <span class="pill pill-accent">Regeneration</span>
+              <div class="program-price">₹1,299<span class="program-price-sub">/mo</span></div>
+            </div>
+            <h3>Recovery Sessions</h3>
+            <p>Foam rolling, gentle myofascial release, light band stretches, and restorative breathing to prime your body for future workouts.</p>
+            <div style="font-size: 0.8rem; color: var(--color-text-muted); margin-bottom: 16px;">
+              <strong>Fitness Level:</strong> All Levels
+            </div>
+            <a href="contact.html?program=Recovery-Sessions" class="btn btn-outline-accent btn-sm btn-block">Enquire Session</a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Demonstration Note -->
+      <div class="demo-disclaimer-box" style="margin-top: 40px;">
+        <strong>Illustrative Pricing Note:</strong> All fees are stated in Indian Rupees (₹) for demonstrative presentation. Programs do not guarantee specific weight loss or muscle gain outcomes as progress depends on individual commitment, nutrition, and rest.
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo">FITNESS <span class="logo-accent">&amp; SPORTS</span></a>
+          <p>
+            Your premier centre for strength training, athletic conditioning, cardio workouts, and sports excellence. Built for discipline, performance, and lifelong health.
+          </p>
+          <span class="pill pill-demo">Frontend Demonstration Website</span>
+        </div>
+
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="fitness-programs.html">Fitness Programs</a></li>
+            <li><a href="gym-training.html">Gym &amp; Personal Training</a></li>
+            <li><a href="cardio-group-fitness.html">Cardio &amp; Group Fitness</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Disciplines</h4>
+          <ul class="footer-links">
+            <li><a href="sports-yoga.html">Sports Training &amp; Yoga</a></li>
+            <li><a href="memberships-gallery.html">Memberships &amp; Gallery</a></li>
+            <li><a href="contact.html">Contact &amp; Enquiry</a></li>
+            <li><a href="fitness-programs.html?filter=strength">Strength Conditioning</a></li>
+            <li><a href="fitness-programs.html?filter=group">Group Aerobics</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Contact &amp; Timings</h4>
+          <ul class="footer-contact-info">
+            <li><strong>Location:</strong> Main Road, Hyderabad, Telangana, India</li>
+            <li><strong>Phone:</strong> +91 90000 00000</li>
+            <li><strong>Email:</strong> demo@example.com</li>
+            <li><strong>Hours:</strong> Mon - Sat: 5:00 AM - 10:00 PM<br>Sun: 6:00 AM - 12:00 PM</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="demo-disclaimer-box">
+        <strong>Demo Notice:</strong> All branding ("FITNESS &amp; SPORTS"), addresses, pricing in INR, phone numbers, and trainer profiles are for conceptual demonstration and UI modeling purposes only. No external APIs or payment processors are attached.
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 FITNESS &amp; SPORTS. All rights reserved. Designed with pure HTML5, CSS3 &amp; Vanilla JavaScript.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button id="backToTopBtn" class="back-to-top" aria-label="Back to Top">&uarr;</button>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
